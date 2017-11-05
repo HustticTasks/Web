@@ -10,7 +10,7 @@
 
    - [阮一峰 - CSS 动画简介](http://www.ruanyifeng.com/blog/2014/02/css_transition_and_animation.html)
 
-     （大家需要每个属性基本的意义，多试试各种功能的效果，大家可以使用  [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), 或者 [JSbin](https://jsbin.com/?html,css,js,output)在线运行自己的代码，实验各种 CSS 动态效果）
+     （大家需要每个属性基本的意义，多试试各种功能的效果，大家可以使用  [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), 或者 [JSbin](https://jsbin.com/?html,css,js,output) 在线运行自己的代码，实验各种 CSS 动态效果）
 
 2. 运用所学知识，完成下面内容：
 
