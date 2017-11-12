@@ -3,7 +3,6 @@ html {
     margin: 0;
     padding: 0;
 }
-
 body {
     text-align: center;
     margin: 0;
@@ -79,10 +78,7 @@ a:hover {
 .oneblock:hover {
     box-shadow: 0 3px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
-.oneblock:enabled {
-    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);    
-}
-input[value = "手气不错"], input[value = "Google搜索"] {
+input[value = "手气不错"], input[value = "Google 搜索"] {
     margin-top: 20px;
     padding: 10px 20px;
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
@@ -94,7 +90,7 @@ input[value = "手气不错"], input[value = "Google搜索"] {
     font-size: 13px;
     font-weight: bold;
 }
-input[value = "手气不错"]:hover, input[value = "Google搜索"]:hover {
+input[value = "手气不错"]:hover, input[value = "Google 搜索"]:hover {
     border: 1px solid #d3d1d1;
     color: black;
 }
