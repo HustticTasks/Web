@@ -1,0 +1,117 @@
+html {
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+header {
+    text-align: right;
+    padding: 0;
+    margin: 10px 20px 0 0;
+    height: 0;
+}
+.application {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    opacity: 0.5;
+    background-size: 528px 68px;
+    padding: 5px 0 15px 15px;
+}
+.application:hover {
+    opacity: 1;
+}
+input[value="登录"] {
+    size: 20px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: #fff;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+a {
+    margin: 10px 12px 0 10px;
+    color: black;
+    text-decoration: none;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.body {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    margin-top: 185px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.voiceinput {
+    position: relative;
+    top: 9px;
+    width: 26px;
+    height: 26px;
+}
+.search {
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 44px;
+    border: none;
+}
+.oneblock {
+    margin-left: 30%;
+    width: 41%;
+    border: 1px solid#f2f2f2;
+    box-shadow:0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+.oneblock:hover {
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+.oneblock:enabled {
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);    
+}
+input[value = "手气不错"], input[value = "Google搜索"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+input[value = "手气不错"]:hover, input[value = "Google搜索"]:hover {
+    border: 1px solid #d3d1d1;
+    color: black;
+}
+.language {
+    color: blue;
+}
+.belowthesearch {
+    margin-bottom: 49px;
+}
+footer {
+    background-color: rgba(240, 239, 239, 0.76);
+    border-top: 1px solid #e4e4e4;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding: auto;
+}
+.special {
+    margin-right: 73%;
+}
