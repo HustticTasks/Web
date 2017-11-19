@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+width:100%;
+}
+p{
+position:absolute;
+left:45%;
+font-size:30px;
+color:#CC3333;
+font-weight:bold;
+}
+@keyframes hinge {
+0%{
+    -webkit-transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+20%, 60%{
+    -webkit-transform: rotate3d(0, 0, 1, 80deg);
+    -webkit-transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+40%, 80%{
+    -webkit-transform: rotate3d(0, 0, 1, 60deg);
+    -webkit-transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-opacity: 1;
+  }
+100%{
+    -webkit-transform: translate3d(0, 600px, 0);
+    -webkit-opacity: 0;
+  }
+}
+.hinge{
+    -webkit-animation: 2s hinge normal infinite ;
+    animation: 2s hinge normal infinite;
+}
+}
+</style>
+</head>
+<body>
+<div><p class="hinge">LLGZONE</P></div>
+</body>
+</html>
