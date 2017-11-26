@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+width:100%;
+}
+.aaa{
+border:solid #707070 1px;
+width:40%;
+height:25px;
+position:absolute;
+top:50%;
+left:30%;
+border-radius:2px;
+}
+.hhh{
+width:40%;
+height:25px;
+-webkit-animation: 6s ccc normal infinite;
+-webkit-animation-timing-function:linear;
+border-radius:2px;
+}
+@-webkit-keyframes ccc {
+  0% { width: 0;
+       background:#CC6600;  }
+  50%{ 
+       background:#FF6600; 
+	   }
+  100% { width:100%;
+      background: #FF0000;  }
+}
+</style>
+</head>
+<body>
+<div class="aaa">
+<div class="hhh"></div>
+</div>
+</body>
+</html>

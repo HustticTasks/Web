@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+width:100%;
+}
+p{
+position:absolute;
+left:45%;
+top:30%;
+font-size:30px;
+color:#CC3333;
+font-weight:bold;
+}
+@keyframes hhh {
+0% {
+    opacity: 0;
+    transform: translate3d(-1000px, 0, 0);
+ }
+
+30% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+}
+
+40% {
+    transform: translate3d(-100px, 0, 0);
+}
+60%{
+    transform: translate3d(100px, 0, 0);
+}
+70% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+}
+100% {
+    opacity: 0;
+    transform: translate3d(1000px, 0, 0);
+}
+}
+.hhh {
+  -webkit-animation: 2s hhh  normal infinite ;
+  animation: 2s hhh  normal infinite;
+}
+</style>
+</head>
+<body>
+<div><p class="hhh" >I'm speechless!</P></div>
+</body>
+</html>
