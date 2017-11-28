@@ -12,6 +12,13 @@
    - 界面不是这次任务的重点，但是也应达到能看的标准。
 4. 利用 HTML5 的 Canvas，(关于 canvas 的使用自行查找学习)通过 JavaScript 绘图来实现网页版的贪吃蛇，具体效果可以参考 [前端网 - 贪吃蛇](http://www.w3cfuns.com/notes/18205/42db621f4942cfea3544ace2d25cde1c.html) 中的效果预览部分。
 
+## 书籍推荐
+
+1. Javascript 高级程序设计(学习 ES5 以及 DOM 相关知识很好的书)
+2. 深入理解 ES6
+3. [exploringjs](http://exploringjs.com/es2016-es2017/)(电子书)
+4. [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)(电子书)
+
 ## 额外说明
 
 1. 这次的任务时间为两周，最近两次的任务内容都不难（所需时间在 10 ~ 15 小时/周)，但能按时完成的同学不多，希望各位能投入更多的时间（实际上，我认为大一在这方面的投入在 30 小时/周的话才是一个积极的状态）。
