@@ -1,0 +1,26 @@
+.jingdutiao {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 3em 3em;
+    background-image: linear-gradient(45deg, transparent 0em, transparent 0.8em, #000000 1em, #000000 2em, transparent 2.1em, transparent 2.9em, #000000 3em);
+    animation: jingdutiao 0.5s infinite linear;
+}
+
+@keyframes jingdutiao {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 3em 0;
+    }
+}
+
+.container {
+    width: 500px;
+}
+
+.container .jingdutiao {
+    height: 20px;
+}
