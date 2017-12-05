@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>效果</title>
+        <style>
+            p {
+                position: absolute;
+                left: 40%;
+                top: 0;
+                padding: 0;
+                margin: 0;
+                font-size: 40px;
+                color: yellow;
+                animation-duration: 3s;
+                animation-name: rotates;
+                animation-iteration-count: infinite;
+            }
+            @keyframes rotates {
+                from {
+                    transform-origin: top left;
+                }
+                20% , 50%, 90% {
+                    transform-origin: top left;
+                    transform: rotate(80deg);
+                }
+                35% , 75%{
+                    transform-origin: top left;
+                    transform: rotate(60deg);
+                    opacity: 1;
+                    position: absolute;
+                    left: 40%;
+                    top: 0;
+                }
+                to {
+                    position: absolute;
+                    left: 40%;
+                    top: 70%;
+                    opacity: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <p>LLGZONE</p>
+    </body>
+</html>
