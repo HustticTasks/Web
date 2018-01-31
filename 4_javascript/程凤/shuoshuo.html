@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+	background-color:#FFFFCC;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #660000;
+	font-size: 20px;
+}
+textarea {
+    border:solid #C0C0C0 1px;
+    position:relative;
+    top:40px;
+    width:600px;
+    display:block;
+    border-radius:2px; 
+    padding-left:15px ;
+    margin: auto;
+    font-size:16px;
+    outline:none;
+    height:150px;
+}
+button{
+	border:solid #E8E8E8 0.5px;
+	background: #F36;
+	padding: 5px 10px;
+	color:white;
+	height:35px;
+	width:100px;
+	border-radius:2px;
+	margin-left:5px;
+	margin-right:5px;
+	position:absolute;
+    top:170px;
+    right:250px;
+    outline:none;
+}
+button:hover{
+	cursor: pointer;
+	background: #F06;
+	border:solid #D8D8D8 1.4px;
+}
+.h{
+	position: absolute;
+	top: 270px;
+	left:400px;
+}
+#ul1{
+	position: absolute;
+	top: 34%;
+	left:30%;
+  list-style-type:none;
+}
+li{
+	width: 800px;
+	height: 40px;
+}
+</style>
+</head>
+<body>
+     <textarea  id="mytextarea"></textarea>
+     <button  onclick="text()" id="btn1">发布</button>
+	   <ul id="ul1"> </ul>  
+     <script type="text/javascript">
+      window.onload=function ()  
+        {
+            var today=new Date()
+            var y=today.getFullYear()
+            var mo=today.getMonth()+1 
+            var d=today.getDate()
+            var h=today.getHours()
+            var m=today.getMinutes()
+            var oBtn=document.getElementById('btn1');  
+            var oU1=document.getElementById('ul1');  
+            var oTxt=document.getElementById('mytextarea');  
+            var aLi=oU1.getElementsByTagName('li');
+            oBtn.onclick=function ()  
+               {  
+                  var oLi=document.createElement('li');
+                  oLi.innerHTML=oTxt.value+" "+"发表于"+y+"."+mo+"."+d+" "+h+":"+m;  
+                  if(aLi.length>0)  
+                  {  
+                     oU1.insertBefore(oLi,aLi[0]);
+                  }
+                  else{  
+                     oU1.appendChild(oLi);  
+                  } 
+                  document.getElementById("mytextarea").value=''; 
+               }
+         }
+     </script>
+</body>
+</html>
