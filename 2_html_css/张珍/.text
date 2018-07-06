@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/Zhang%20Zhen/Desktop/%E6%94%B9.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Google</title>
+    <style type="text/css">
+*{
+margin:0;
+padding:0;
+}
+
+
+
+input{
+      width:500px;
+      height:40px;
+      background-color:white;
+      border:none;
+
+      border-radius:5px;
+      outline:none;
+
+}
+body{
+background:white;
+font-weight:550;
+font-size:15px;
+color:black;
+text-align:center;
+}
+.header{
+   background-color:white;
+   color:black;
+   text-align:right;
+   padding:0px;
+   font-size:10px;
+   position:relative;
+   right:60px;
+   top:10px;
+}
+.leader u1{
+list-style:none;
+}
+.leader li{
+   float:right;
+   width:70px;
+   margin-top:12px;
+   display:inline-block;
+   
+}
+#n1{
+padding:75px;
+}
+#n2{
+padding:200px;
+}
+.footer{
+width:1500px;
+padding:10px;
+height:12px;
+color:black;
+}
+.footer u1{
+list-style:none;
+}
+.footer li{
+   float:left;
+   width:70px;
+   display:inline-block;
+}
+img.a{
+  height:200px;
+  width:400px;
+}
+img.b{
+  height:20px;
+  width:20px;
+}
+
+.form { 
+            width: 550px;
+            height: 42px;
+            display: inline-block;
+            padding: 0.3px;
+            border: none;
+            border-radius: 1px solid #e7e7e7;   
+            color: black;         
+}
+
+.find {
+          height: 45px;
+          margin: 0;
+          border:none;
+          
+          
+       box-shadow: 0 0.5px 3px 0 rgb(190,190,190);
+     }
+
+.find:hover {
+          border: none;
+          border-style: solid;
+          border-color: rgb(255,255,255);
+          border-radius: 2px;
+          border-width: 1px 1px 1px 1px;
+          box-shadow: 0 0.7px 5px 0 rgb(190,190,190);
+          border-radius: 5px;
+          box-sizing: border-box;
+        }
+
+.qq {
+          background-color: #eeeeee;
+          border: none;
+          width: 110px;
+          height: 35px;
+          font-family: Microsoft YaHei;
+          color: #666;
+        }
+
+.qq:hover {
+          background-color:#F08080;
+          border-style: solid;
+          border-color: #1E1E1E;
+          border-radius: 2px;
+          border-width: 1px 1px 1px 1px;
+          width: 110px;
+          height: 35px;
+          font-family: Microsoft YaHei;
+          color: black;
+        }
+
+        
+
+        .ww {
+          position: relative;
+          right: -250px;
+          top: -33px;
+          color: #4285f4;
+        }
+
+        .position {
+          font-size: 20px;
+          position: relative;
+          top: -60px;
+          left: 140px;
+          color: #4285f4;
+          font-family: Microsoft YaHei;
+        }
+a{
+text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+.signin{
+  position:absolute;
+  top:-5px;
+  left:87%;
+  border:solid;
+  background-color:#4285f4;
+  color:white;
+  height:30px;
+  width:50px;
+  font-family:Microsoft YaHei;
+  float:right;
+  width:70px;
+  margin-top:12px;
+  
+}
+body{
+  overflow-x: hidden;
+  
+}
+.yuyin{
+  position:absolute;
+  left:440px;
+  top:180px;
+}
+
+</style>
+
+
+</head>
+<body>
+<div class="leader">
+ <ul>
+ <li><a href=""><img class="b" src="图/googleapp.png"></a></li>
+ <li><button class="signin">登陆</button><li>
+ <li><a href="">图片</a></li>
+ <li><a href="">Gmail</a></li>
+
+ </ul>
+</div>
+
+<div id="n1">
+</div>
+<a href="https://www.google.com.hk/">
+    <img class="a" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510497898551&di=39f80630f58eb75c801a73e5b679f88f&imgtype=0&src=http%3A%2F%2Fwww.logocollect.com%2FgoogleHR%2Fimages%2F500%2F2499.jpg"
+     alt="google" title="Google">
+  </a>
+  
+  
+ 
+  <form >
+      <div class="form">
+          <input type="text" class="find" x-webkit-speech/>
+        
+        <span class="yuyin"><br>
+         <img class="yuyin" src="图/QQ图片20171114210752.png" alt="yuyin" title="yuyin">
+         </span>
+ 
+ 
+         <br><br><br>
+          <button class="qq"><b>Google 搜索</b></button>
+          <button class="qq"><b>继续搜索</b></button>
+
+
+
+
+
+
+       </div>
+</form>
+
+
+
+
+<div id="n2"></div>
+
+<div class="footer">
+  <ul>
+  <li><a href="">娱乐</a></li>
+  <li><a href="">军事</a></li>
+  <li><a href="">新闻</a></li> 
+  </ul>
+</div>
+
+
+</body>
+</html>

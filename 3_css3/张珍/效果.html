@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>落</title>
+  <style>
+  .h1{
+  color:red;
+  position:absolute;
+  top:0%;
+  left:45%;
+  -webkit-animation:luo 3s infinite;
+  animation:luo 3s infinite;
+
+
+  }
+  @keyframes luo{
+ 0% {
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+}
+
+20%, 60% {
+    transform: rotate3d(0, 0, 1, 80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+}
+40%, 80% {
+    transform: rotate3d(0, 0, 1, 60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+}
+100% {
+    transform: translate3d(0, 700px, 0);
+    opacity: 0;
+  }
+  </style>
+  </head>
+  <body>
+  <div class="h1">
+  <h1>LLDZONE</h1>
+  </div>
+  </body>
+  </html>

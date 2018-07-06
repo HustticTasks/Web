@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>进度条</title>
+<style type="text/css">
+.test{
+	width:450px;
+	border:1px solid #000;
+	height:25px;
+	border-radius:8px;
+
+}
+.progress{
+	
+	height:25px;
+	line-height:25px;
+	border-radius:8px;
+
+
+ -webkit-animation: 5s rainbow infinite;
+ -webkit-animation-timing-function:linear;
+
+ animation: 5s rainbow infinite;
+ animation-timing-function:linear;
+
+}
+@keyframes rainbow {
+  0% { background: #c00;width:0%; }
+  
+  100% { background: yellowgreen;width:100%; }
+}
+
+</style>
+</head>
+<body>
+<div class="test">
+     <div class="progress"></div>
+</div>
+</body>
+</html>
