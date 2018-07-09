@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>XuanZai ZONE</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+</head>
+<body>
+	<p>
+		<textarea rows="50" cols="80" id="mytextarea" "></textarea>
+		<button onclick="text()" value="click">确认发布</button>
+	</p>
+	<script type="text/javascript">
+        function text()
+        {
+            var talk = document.getElementById("mytextarea").value ;
+            document.getElementById("TalkGet").innerHTML=talk;
+        }
+	</script>
+	<p id="TalkGet"></p>
+</body>
+</html>
